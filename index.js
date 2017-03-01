@@ -6,8 +6,8 @@ module.exports = {
 
   included: function(app) {
     // Mapbox GL
-    app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.js');
-    app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.css');
+    // app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.js');
+    // app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.css');
   },
 
   isDevelopingAddon: function() {

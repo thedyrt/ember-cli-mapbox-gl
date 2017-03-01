@@ -1,6 +1,6 @@
 # Ember-cli-mapbox-gl
 
-Ember CLI addon to integrate Mapbox GL and add a componentn mixin
+Ember CLI addon to integrate Mapbox GL and add a component mixin
 
 
 ## Installation
@@ -36,7 +36,13 @@ mapbox: {
 
 ## Usage
 
-Run installer: `ember g ember-cli-mapbox-gl`
+Add MabBox asset links to index.html
+
+```html
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css" rel="stylesheet" />
+
+```
 
 Create a new Component: `ember g component mapbox-map`
 
