@@ -36,14 +36,6 @@ mapbox: {
 
 ## Usage
 
-Add MabBox asset links to index.html
-
-```html
-<script src="https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js"></script>
-<link href="https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css" rel="stylesheet" />
-
-```
-
 Create a new Component: `ember g component mapbox-map`
 
 ```js

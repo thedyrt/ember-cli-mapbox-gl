@@ -4,10 +4,13 @@
 module.exports = {
   name: 'ember-cli-mapbox-gl',
 
-  included: function(app) {
-    // Mapbox GL
-    // app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.js');
-    // app.import(app.bowerDirectory + '/mapbox-gl-js/mapbox-gl.css');
+  options: {
+    nodeAssets: {
+      'mapbox-gl': {
+        srcDir: 'dist',
+        import: ['mapbox-gl.js', 'mapbox-gl.css'],
+      }
+    }
   },
 
   isDevelopingAddon: function() {

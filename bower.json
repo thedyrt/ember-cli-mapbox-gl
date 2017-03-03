@@ -2,8 +2,7 @@
   "name": "ember-cli-mapbox-gl",
   "dependencies": {
     "ember": "~2.9.0",
-    "ember-cli-shims": "0.1.3",
-    "mapbox-gl-js": "nicho90/mapbox-gl-js-bower#0.28.0"
+    "ember-cli-shims": "0.1.3"
   },
   "resolutions": {
     "ember": "~2.9.0"
